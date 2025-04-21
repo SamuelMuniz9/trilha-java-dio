@@ -9,7 +9,7 @@ public class ContaTerminal {
 
 
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+     
         //Conhecer e importar a classse Scanner
       
         Scanner Lendo = new Scanner (System.in); 
@@ -30,7 +30,7 @@ public class ContaTerminal {
         String NomeCliente = Lendo.next();
 
         Lendo.nextLine(); // Consumir a quebra de linha pendente.
-        
+
         System.out.println("Por favor, digite o seu saldo: ");
         Double Saldo = Lendo.nextDouble();
   
